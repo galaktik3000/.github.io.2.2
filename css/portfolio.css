@@ -1,0 +1,146 @@
+.portfolio_text_1{
+    font-family: Poppins Bold;
+    font-size: clamp(30px, 3.2vw, 56px);
+}
+
+.portfolio_text_2{
+    font-family: Poppins Regular;
+    font-size: clamp(15px, 1.3vw, 18px);
+}
+
+.portfolio_img img{
+    width: 100%;
+}
+
+
+
+
+
+
+
+
+
+.alert-fixed {
+    position:fixed; 
+    top: 8px; 
+    left: 25%; 
+    width: 50%;
+    z-index:10; 
+}
+
+
+
+
+
+
+
+
+
+.col_portfolio{
+    position: relative;
+}
+
+.portfolio_img_1, .portfolio_img_3{
+    width: 90%;
+}
+
+.img_reverse{
+    display: flex;
+    justify-content: end;
+}
+
+.portfolio_img_2{
+    width: 20%;
+    height: 100%;
+}
+
+.portfolio_block_text_1{
+    font-family: Poppins Semibold;
+    font-size: clamp(10px, 1.3vw, 18px);
+}
+
+.portfolio_block_text_2{
+    font-family: Poppins Regular;
+    font-size: clamp(10px, 1.3vw, 18px);
+    color: #9C9C9C;
+}
+
+
+
+
+
+
+
+
+
+@media(max-width: 1200px){
+    .col_portfolio_2{
+        margin-top: 3%;
+    }
+
+    .col_portfolio_3{
+        margin-top: 3%;
+        text-align: end;
+    }
+
+    .portfolio_block{
+        position: absolute;
+        top: 30px;
+        right: 5%;
+    }
+
+    .portfolio_block_2{
+        position: absolute;
+        top: 30px;
+        left: 5%;
+    }
+
+    .row_reverse{
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: end;
+    }
+}
+
+@media(min-width:1200px){
+    .col_portfolio_2{
+        margin-top: 12.5%;
+    }
+
+    .col_portfolio_3{
+        margin-top: 12.5%;
+        text-align: start;
+    }
+
+    .portfolio_block{
+        position: absolute;
+        top: 30px;
+        right: -7.5%;
+    }
+
+    .portfolio_block_2{
+        position: absolute;
+        top: 30px;
+        left: -9%;
+    }
+}
+
+
+
+.portfolio_text_3{
+    font-family: Poppins Semibold;
+    font-size: clamp(17.5px, 1.6vw, 24px);
+}
+
+.portfolio_text_4{
+    font-family: Poppins Regular;
+    font-size: clamp(15px, 1.3vw, 18px);
+    color: #9C9C9C;
+}
+
+.btn_portfolio.btn-primary, .btn_portfolio.btn-primary:hover, .btn_portfolio.btn-primary:active, .btn_portfolio.btn-primary:visited {
+    background-color: #2C3878 !important;
+    color: white;
+    border: none;
+    border-radius: 0;
+}

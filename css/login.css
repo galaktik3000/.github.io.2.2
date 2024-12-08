@@ -1,0 +1,55 @@
+.log_text_1{
+    font-family: Poppins Bold;
+    font-size: clamp(39px, 3.9vw, 56px);
+}
+
+.log_text_2{
+    color: #9C9C9C;
+    font-family: Poppins Regular;
+    font-size: clamp(15px, 1.3vw, 18px);
+}
+
+.log_text_3{
+    font-family: Poppins Regular;
+    font-size: clamp(13px, 1vw, 16px);
+}
+
+.log_text_4{
+    font-family: Poppins Regular;
+    font-size: clamp(10px, 1vw, 16px);
+    color: #9C9C9C;
+}
+
+.log_btn.btn-primary, .log_btn.btn-primary:hover, .log_btn.btn-primary:active, .log_btn.btn-primary:visited {
+    background-color: #2C3878 !important;
+    border: none;
+    border-radius: 0;
+}
+
+.fab{
+    color: #2C3878;
+}
+
+.card{
+    border-radius: 0;
+    border-color: transparent;
+}
+
+.form-check-input{
+    color: #2C3878;
+    background-color: #9C9C9C;
+    border: none;
+    outline: none;
+    box-shadow: none;
+}
+
+.form-check-input:focus, .form-check-input:active, .form-check-input:visited{
+    outline: none;
+    box-shadow: none;
+    background-color: #9C9C9C;
+    color: #2C3878;
+}
+
+.form-check-input:checked{
+    background-color: #2C3878;
+}

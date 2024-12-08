@@ -1,0 +1,47 @@
+.services_text_1{
+    font-family: Poppins Bold;
+    font-size: clamp(30px, 3.2vw, 56px);
+}
+
+.services_text_2{
+    font-family: Poppins Regular;
+    font-size: clamp(15px, 1.3vw, 18px);
+}
+
+.services_img img{
+    width: 100%;
+}
+
+
+
+
+
+
+
+
+
+.achievement_text_1{
+    font-family: Poppins Semibold;
+    font-size: clamp(15.5px, 1.6vw, 24px);
+}
+
+.achievement_text_2{
+    font-family: Poppins Regular;
+    font-size: clamp(12px, 1.3vw, 18px);
+    color: #9C9C9C;
+}
+
+.nav-pills .nav-link.active {
+    box-shadow: none;
+    outline: none;
+    background-color: #2C3878;
+    border-radius: 0;
+    padding-left: 24px;
+    padding-right: 24px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+}
+
+.nav-pills .nav-link{
+    color: #9C9C9C;
+}

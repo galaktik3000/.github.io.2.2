@@ -1,0 +1,41 @@
+.about_us_text_1{
+    font-family: Poppins Bold;
+    font-size: clamp(30px, 3.2vw, 56px);
+}
+
+.about_us_text_2{
+    font-family: Poppins Regular;
+    font-size: clamp(15px, 1.3vw, 18px);
+}
+
+.about_us_img img{
+    width: 100%;
+}
+
+
+
+
+
+
+
+
+
+.achievement_text_2{
+    font-family: Poppins Semibold;
+    font-size: clamp(20px, 2.6vw, 36px);
+}
+
+.achievement_col_1{
+    background-color: #2C3878;
+}
+
+.achievement_text_3{
+    font-family: Poppins Regular;
+    font-size: clamp(22.5px, 3.1vw, 52px);
+}
+
+.achievement_text_4{
+    font-family: Poppins Regular;
+    font-size: clamp(7.5px, 1vw, 16px);
+    margin-top: -5%;
+}
